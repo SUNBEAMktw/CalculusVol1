@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>
+      CalculusVolume1
+    </title>
+    <link rel="icon" href="../favicon (2).ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  
+  <body>
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }
+    });
+</script>
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <center>
+      <a href="index.html"><h3>미적분 1권: 일변수 미적분과 선형 대수 개론</h3></a>      
+    <hr width="50%" noshade>
+    </center>
+    
+    <div class="row">
+      <div class="left">
+      <ul>
+      <li><mark id="red">서설</mark></li>
+      </ul>
+        <ol>
+      <li><a href="1/0.html">적분의 개념</a></li>
+      <li><a href="2/0.html">적분의 응용</a></li>
+      <li><a href="3/0.html">연속함수</a></li>
+      <li><a href="4/0.html">미분</a></li>
+      <li><a href="5/0.html">적분과 미분의 관계</a></li>
+      <li><a href="6/0.html">로그, 지수, 역삼각함수</a></li>
+      <li><a href="7/0.html">함수에 대한 다항식 근사</a></li>
+      <li><a href="8/0.html">미분 방정식 소개</a></li>
+      <li><a href="9/0.html">복소수</a></li>
+      <li><a href="10/0.html">수열, 무한급수, 이상적분</a></li>
+      <li><a href="11/0.html">함수의 수열과 급수</a></li>
+      <li><a href="12/0.html">벡터 대수</a></li>
+      <li><a href="13/0.html">해석 기하학에 대한 벡터 대수 응용</a></li>
+      <li><a href="14/0.html">벡터값함수의 미적분</a></li>
+      </ol> 
+      </div>
+      
+      <div class="center">
+      <ol>
+      <li><mark id="red">역사적 서론</mark></li>
+      <li><a href="0.2.html">집합론의 기본 개념</a></li>
+      <li><a href="0.3.html">실수계를 위한 공리 집합</a></li>
+      <li><a href="0.4.html">수학적 귀납, 합 표기, 관련 주제들</a></li>
+      </ol>
+      </div>
+      
+      <div class="right">
+      <ol>
+      <li><a href="0.1.1.html">미적분의 두 가지 기본 개념</a></li>
+      <li><a href="0.1.2.html">역사적 배경</a></li>
+      <li><a href="0.1.3.html">포물선의 면적을 구하기 위한 소진법</a></li>
+      <li><mark id="red">연습문제</mark></li>
+      <li><a href="0.1.5.html">아르키메데스의 방법에 대한 비판적 분석</a></li>
+      <li><a href="0.1.6.html">이 책의 미적분 접근법</a></li>
+      </ol>
+      </div>
+    </div>
+    
+    <hr width="100%" noshade>
+ <p>
+    <h4>연습문제 2</h4>
+      각 $x$의 세로좌표가 $x^{2}$이 아니라 $x^{3}$이라고 가정하며 그림 1.3의 구역을 조정하라. 
+    <ul>
+      <li>그림 1.5에서 쓰인 것과 유사하게 구축하여 외부 및 내부 합 $S_{n}$과 $s_{n}$이 다음처럼 주어진다는 것을 보여라.
+      $$S_{n}=\frac{b^{4}}{n^{4}}(1^{3}+2^{3}+\ldots+n^{3}),\;s_{n}=\frac{b^{4}}{n^{4}}[1^{3}+2^{3}+\ldots+(n-1)^{3}].$$</li>
+      <li>아래 부등식을 사용하여 
+      $$\begin{align} 1^{3}+2^{3}+\ldots+(n-1)^{3}<\frac{n^{4}}{4}<1^{3}+2^{3}+\ldots+n^{3}\end{align}\tag{1.12}$$
+      모든 $n$에 대해 $s_{n} < \frac{b^{4}}{4} < S_{n}$이라는 것을 보이고, $\frac{b^{4}}{4}$가 모든 $n$에 대해 $s_{n}$과 $S_{n}$ 사이에 있는 <em>단 하나의</em> 수라는 것을 보여라.</li>
+      <li>각 $x$의 세로좌표가 $ax^{3}+c$일 때 어떤 수가 $\frac{b^{4}}{4}$의 자리를 차지하는가?</li>
+    </ul>
+    </p>
+
+    <p>
+    <h4>연습문제 3</h4>
+    $(1.5)$와 $(1.12)$의 부등식은 더 일반적인 부등식인 아래 식의 특수한 경우로,
+    $$\begin{align} 1^{k}+2^{k}+\ldots+(n-1)^{k}<\frac{n^{k+1}}{k+1}<1^{k}+2^{k}+\ldots+n^{k}\end{align}\tag{1.13}$$
+    $n\geq 1$인 모든 정수와 $k\geq 1$인 모든 정수에 대해 타당하다.
+    $(1.13)$의 타당성을 가정하고 연습문제 2의 결과를 일반화하라.
+    </p>
+    <hr width="100%" noshade>
+    
+    <p style="text-align:right;">
+      <a href="https://klevas.mif.vu.lt/~stepanauskas/AM1/Tom%20Apostol%20-%20Calculus%20vol.1%20-%20One-variable%20Calculus,%20with%20an%20Introduction%20to%20Linear%20Algebra%20(1975).pdf">『Calculus, Volume 1: One-variable calculus, with an introduction to linear algebra』</a>
+      <br>(Apostol, 1967)
+      <br>번역 <a href="https://sunbeamktw.github.io/BirCon/">김태원</a></p>
+  </body>
+</html>
