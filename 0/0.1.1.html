@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>
+      CalculusVolume1
+    </title>
+    <link rel="icon" href="../favicon (2).ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  
+  <body>
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }
+    });
+</script>
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <center>
+      <a href="index.html"><h3>미적분 1권: 일변수 미적분과 선형 대수 개론</h3></a>      
+    <hr width="50%" noshade>
+    </center>
+    
+    <div class="row">
+      <div class="left">
+      <ul>
+      <li><mark id="red">서설</mark></li>
+      </ul>
+        <ol>
+      <li><a href="1/0.html">적분의 개념</a></li>
+      <li><a href="2/0.html">적분의 응용</a></li>
+      <li><a href="3/0.html">연속함수</a></li>
+      <li><a href="4/0.html">미분</a></li>
+      <li><a href="5/0.html">적분과 미분의 관계</a></li>
+      <li><a href="6/0.html">로그, 지수, 역삼각함수</a></li>
+      <li><a href="7/0.html">함수에 대한 다항식 근사</a></li>
+      <li><a href="8/0.html">미분 방정식 소개</a></li>
+      <li><a href="9/0.html">복소수</a></li>
+      <li><a href="10/0.html">수열, 무한급수, 이상적분</a></li>
+      <li><a href="11/0.html">함수의 수열과 급수</a></li>
+      <li><a href="12/0.html">벡터 대수</a></li>
+      <li><a href="13/0.html">해석 기하학에 대한 벡터 대수 응용</a></li>
+      <li><a href="14/0.html">벡터값함수의 미적분</a></li>
+      </ol> 
+      </div>
+      
+      <div class="center">
+      <ol>
+      <li><mark id="red">역사적 서론</mark></li>
+      <li><a href="0.2.html">집합론의 기본 개념</a></li>
+      <li><a href="0.3.html">실수계를 위한 공리 집합</a></li>
+      <li><a href="0.4.html">수학적 귀납, 합 표기, 관련 주제들</a></li>
+      </ol>
+      </div>
+      
+      <div class="right">
+      <ol>
+      <li><mark id="red">미적분의 두 가지 기본 개념</mark></li>
+      <li><a href="0.1.2.html">역사적 배경</a></li>
+      <li><a href="0.1.3.html">포물선의 면적을 구하기 위한 소진법</a></li>
+      <li><a href="0.1.4.html">연습문제</a></li>
+      <li><a href="0.1.5.html">아르키메데스의 방법에 대한 비판적 분석</a></li>
+      <li><a href="0.1.6.html">이 책의 미적분 접근법</a></li>
+      </ol>
+      </div>
+    </div>
+    
+    <hr width="100%" noshade>
+    
+     <p>
+      지난 세기 동안 과학 및 기술 분야에서 일어난 발전은 대부분 수학의 발전에서 비롯한다고 볼 수 있다. 적분과 미분으로 알려진 수학의 한 갈래는
+       물리학, 천문학, 공학, 화학, 지질학, 생물학, 최근에는 사회과학을 비롯한 다양한 분야에서 발생하는 다양한 문제를 푸는 자연스러운 동시에
+       강력한 도구로 기능한다. 
+    </p>
+    <p>
+      미적분의 방법으로 다룰 수 있는 문제가 얼마나 다양한지 보여주고자, 연습문제에서 예제 몇 개를 가져왔다.
+    </p>
+    <p>
+      발사 이후 로켓이 지구로 돌아오지 않으려면, 어느 속도로 로켓이 발사되어야 하는가? 주어진 둘레 $L$의 모든 이등변 삼각형을 전부 덮을 수 있는 원반
+      가운데 가장 작은 것의 반지름은 몇인가? 반지름 $r$의 구멍이 구체의 중심에 뚫렸다면, 구체에서 사라진 물질의 부피는 몇인가? 균주가 지금 규모에
+       상응하는 비율로 자라고 개체 수가 한 시간마다 두 배로 늘어난다면, 두 시간이 지났을 때는 균주가 얼마나 자랐을 것인가? 10파운드의 힘이 탄성 스프링을
+       1인치만큼 늘린다면, 스프링을 1푸트 늘리기 위해서는 어느 정도의 작업이 요구되는가?
+    </p>
+    <p>
+      다양한 분야에서 가져온 이들 예시는 미적분의 다소 일상적인 응용을 통해서 답할 수 있는 기술적 물음을 묘사한다.
+    </p>
+    <p>
+      미적분은 기술적 도구 그 이상으로, 지금껏 사고하는 인간의 구미를 당긴 짜릿하고 즐거운 발상의 모음이다. 여기서 발상이란 <b>속도, 면적, 용량,
+       생장률, 연속성, 접선(接線, tangent line )</b>, 또 다양한 분야의 개념들에 관한 것이다. 미적분은 우리에게 멈출 것을, 그런 다음 이들 개념에
+       관해 숙고할 것을 강제한다. 이 주제에서 또 다른 주목할만한 점은 바로 그 통합력(unifying power)이다. 이들 발상은 대부분 정식화 가능하며, 그렇기에
+       기하학적 본성의 특수 문제들을 둘러싼다. 우리는 이제 이들 문제들의 간략한 기술(description)로 돌아갈 것이다.
+    </p>
+    <p>
+      그림 1.1에서 보이는 곡선 $C$를 볼 것. 우리는 이 곡선이 모든 수직선이 적어도 한 번은 교차하는 속성을 갖는다고 가정한다. 그림에서 색칠된 부분은 
+      곡선 $C$ 밑, 수평선 위, 두 개의 평행한 수직선 사이의 점들로 구성된다. 미적분의 첫 번째 근본 문제는 다음과 같다. <b>색칠된 구역의
+      면적을 재는 숫자를 대입하는 것</b>.
+    </p>
+    <p>
+      이제 곡선에 접하게 그려진 선을 볼 것. [미적분의] 두 번째 근본 문제는 다음처럼 표현될 수 있을 것이다. <b>이 선의 기울기를 재는 숫자를
+      대입하는 것</b>
+    </p>
+    <center>
+    <img src="Ca1.1.fig.1.png" width="70%">
+    </center>
+    <p>
+      기본적으로, 미적분은 이들 두 특수 문제의 엄밀한 정식화에 관한 것이다. 이로 인해 면적과 접선 그리고 주어진 구역의 면적이나 주어진 접선의 기울기를
+      계산한다는 것의 개념을 정의할 수 있다. <b>적분</b>은 면적의 문제를 다룰 것이며 1장에서 논의된다. <b>미분</b>은
+       접선의 문제를 다룰 것이며 4장에서 소개된다.
+    </p>
+    <p> 미적분 연구는 확실한 수학적 배경을 요구한다. 이 장은 이런 배경 내용을 다루며 네 부분으로 나뉜다. 1부는 역사적 관점을 제공한다. 2부는 집합론의 
+    표기법과 용어 일부를 논의한다. 3부는 실수계를 다룬다. 4부는 수학적 귀납법과 합 표기를 다룬다. 독자가 이들 주제에 익숙하다면 바로 1장부터 읽어도 좋다. 
+    그게 아니라면, 1장을 읽기 전에 서설의 이들 주제에 익숙해질 필요가 있다. </p>
+    
+    <hr width="100%" noshade>
+    
+    <p style="text-align:right;">
+      <a href="https://klevas.mif.vu.lt/~stepanauskas/AM1/Tom%20Apostol%20-%20Calculus%20vol.1%20-%20One-variable%20Calculus,%20with%20an%20Introduction%20to%20Linear%20Algebra%20(1975).pdf">『Calculus, Volume 1: One-variable calculus, with an introduction to linear algebra』</a>
+      <br>(Apostol, 1967)
+      <br>번역 <a href="https://sunbeamktw.github.io/BirCon/">김태원</a></p>
+  </body>
+</html>
