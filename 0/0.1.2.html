@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>
+      CalculusVolume1
+    </title>
+    <link rel="icon" href="../favicon (2).ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  
+  <body>
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }
+    });
+</script>
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <center>
+      <a href="index.html"><h3>미적분 1권: 일변수 미적분과 선형 대수 개론</h3></a>      
+    <hr width="50%" noshade>
+    </center>
+    
+    <div class="row">
+      <div class="left">
+      <ul>
+      <li><mark id="red">서설</mark></li>
+      </ul>
+        <ol>
+      <li><a href="1/0.html">적분의 개념</a></li>
+      <li><a href="2/0.html">적분의 응용</a></li>
+      <li><a href="3/0.html">연속함수</a></li>
+      <li><a href="4/0.html">미분</a></li>
+      <li><a href="5/0.html">적분과 미분의 관계</a></li>
+      <li><a href="6/0.html">로그, 지수, 역삼각함수</a></li>
+      <li><a href="7/0.html">함수에 대한 다항식 근사</a></li>
+      <li><a href="8/0.html">미분 방정식 소개</a></li>
+      <li><a href="9/0.html">복소수</a></li>
+      <li><a href="10/0.html">수열, 무한급수, 이상적분</a></li>
+      <li><a href="11/0.html">함수의 수열과 급수</a></li>
+      <li><a href="12/0.html">벡터 대수</a></li>
+      <li><a href="13/0.html">해석 기하학에 대한 벡터 대수 응용</a></li>
+      <li><a href="14/0.html">벡터값함수의 미적분</a></li>
+      </ol> 
+      </div>
+      
+      <div class="center">
+      <ol>
+      <li><mark id="red">역사적 서론</mark></li>
+      <li><a href="0.2.html">집합론의 기본 개념</a></li>
+      <li><a href="0.3.html">실수계를 위한 공리 집합</a></li>
+      <li><a href="0.4.html">수학적 귀납, 합 표기, 관련 주제들</a></li>
+      </ol>
+      </div>
+      
+      <div class="right">
+      <ol>
+      <li><a href="0.1.1.html">미적분의 두 가지 기본 개념</a></li>
+      <li><mark id="red">역사적 배경</mark></li>
+      <li><a href="0.1.3.html">포물선의 면적을 구하기 위한 소진법</a></li>
+      <li><a href="0.1.4.html">연습문제</a></li>
+      <li><a href="0.1.5.html">아르키메데스의 방법에 대한 비판적 분석</a></li>
+      <li><a href="0.1.6.html">이 책의 미적분 접근법</a></li>
+      </ol>
+      </div>
+    </div>
+    
+    <hr width="100%" noshade>
+    
+     <p>
+      적분은 2000년도 전에 <b>소진법(method of exhaustion)</b>으로 면적을 결정하고자 했던 그리스인들에 의해 나타났다.
+      본질적인 발상은 아주 단순하고 다음처럼 간단하게 기술될 수 있다.
+      그 면적이 결정될 주어진 면적에 우리는 다각형의 구역을 새길 것인데 이는 앞서 주어진 면적에 근사하며(approximate) 쉽게 계산할 수 있다.
+      그런 다음 우리는 또 다른 다각형 면적을 취해 더 나은 근사를 얻고, 이 과정을 반복해, 다각형에서 더 많은 면을 취해 주어진 구역을 소진시킨다.
+      이 방법은 그림 1.2의 반원 구역으로 묘사되었다.
+      아르키메데스(287-212)에 의해 원을 비롯한 특수한 형상들의 면적을 구하는 정확한 공식을 찾는 데 성공적으로 쓰였다.
+    </p>
+    <p>
+      대수적 기호와 기법의 사용이 수학의 표준이 되어 소진법이 발전하기까지는 아르키메데스로부터 거의 18세기가 걸렸다. 
+      오늘날 고등학생이라면 익숙할 기초 대수학은 아르키메데스의 시기에는 전혀 알려지지 않았고, 긴 계산을 압축적이고 단순한 형식으로 표현하는 편리한 방법 없이는 자신의 소진법을 또 다른 일반적인 구역 묶음으로 확장하기는 불가능에 가까웠을 것이다.
+    </p>
+    <center>
+      <img src="CAL1.Fig.1.2.png" width="70%">
+    </center>
+    <p>
+      수학적 표기법에 있어서 느리지만 혁명적인 변화는 16세기에 일어나기 시작했다. 
+      번거로운 로마식 수 표기법은 오늘날 쓰이는 인도-아라비아 문자로 대체되었고, $+$와 $-$가 처음으로 소개되었으며, 10진법의 이점이 인식되기 시작했다.
+      같은 기간, 3차 방정식과 4차 방정식의 대수적 해결뱁을 찾으려는 타르탈리아(Tartaglia), 카르다노(Cardano), 페라리(Ferrari)와 같은 이탈리아 수학자들의 뛰어난 성과로 인해 수학의 많은 활동이 고무되었고, 새롭고 더 뛰어난 대수적 언어의 성장 및 수용이 독려되었다.
+      심사숙고를 거친 대수적 기호의 전방위적 소개와 함께, 고대 소진법에 대한 흥미가 돌아왔고, 카발리에리(Cavalieri), 토리첼리(Toricelli), 로베르발(Roberval), 페르마(Fermat), 파스칼(Pascal), 월리스(Wallis) 같은 선구자들로 인해 16세기에 다량의 파편적 결과물들이 발견되었다.
+    </p>
+    <p>
+      일반적으로 소진법은, 새롭고 또 강력한 규범과 단지 면적 및 양에 관한 기하학적 문제만이 아니라 과학 등 다양한 응용 분야와 함께, 오늘날 적분이라고 불리는 분야로 변형되었다.
+      이 갈래의 수학은, 소진법에서 많은 내용을 취해, 17세기에 가장 큰 추동력을 얻었는데, 주로 아이작 뉴턴(1642-1727)과 고트프리트 라이프니츠(1646-1716)의 공헌이었고, 그 발전은 19세기에도 계속되어 어거스틴-루이 코시(1789-1857)와 베른하르트 리만(1826-1866)에 이르면 단단한 수학적 기반 위에 미적분이 오르게 된다.
+      이론의 정제와 확장은 현대 수학에서 지금도 이어지고 있다.
+    </p>
+    
+    <hr width="100%" noshade>
+    
+    <p style="text-align:right;">
+      <a href="https://klevas.mif.vu.lt/~stepanauskas/AM1/Tom%20Apostol%20-%20Calculus%20vol.1%20-%20One-variable%20Calculus,%20with%20an%20Introduction%20to%20Linear%20Algebra%20(1975).pdf">『Calculus, Volume 1: One-variable calculus, with an introduction to linear algebra』</a>
+      <br>(Apostol, 1967)
+      <br>번역 <a href="https://sunbeamktw.github.io/BirCon/">김태원</a></p>
+  </body>
+</html>
